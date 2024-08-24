@@ -1,13 +1,7 @@
 import google.generativeai as genai
 import streamlit as st
-from langchain import LLMChain
 from langchain.prompts import PromptTemplate
-from langchain.llms import OpenAI
 import os
-from dotenv import load_dotenv
-
-# Load environment variables from the .env file
-load_dotenv()
 
 # Access the API key from environment variables
 api_key = st.secrets("GEMINI_API")
