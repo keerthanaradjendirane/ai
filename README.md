@@ -1,6 +1,3 @@
-
-Here's a README.md file tailored for your AI Story Generator project:
-
 AI Story Generator
 Hosted Link: https://aistorygenerator-w8xcngycrl4ksrgepiy8tp.streamlit.app/
 
