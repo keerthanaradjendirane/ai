@@ -5,6 +5,7 @@ import os
 
 # Access the API key from environment variables
 api_key = st.secrets("GEMINI_API")
+api_key = os.getenv("GEMINI_API","GEMINI_API")
 genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel(model_name="gemini-1.5-flash")
